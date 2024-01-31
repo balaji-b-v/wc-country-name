@@ -1,4 +1,4 @@
-# 🌐 wc-country-names
+# 🌐 wc-country-name
 
 The components source code lives in `lib/` folder. Only components with the `.wc.svelte` extension will be exported as web components in the library. This means that you can also use regular Svelte components with the `.svelte` extension as child components for your implementation details.
 
@@ -56,7 +56,7 @@ Here's an example:
 
 ```html
 // CountryName.wc.svelte
-<svelte:options tag="my-component" />
+<svelte:options tag="country-name" />
 <script>
   import { get_current_component } from "svelte/internal";
   const component = get_current_component();
