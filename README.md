@@ -117,4 +117,7 @@ Now  the entire html folder can be run from any web server
   - if Apache: place in in htdocs/ folder
 Invoke the index.html from browser as in http://localhost
 You can see the sample here:
-  
+  ![Web component usage: ](https://github.com/balaji-b-v/wc-country-name/blob/main/webComponentUsage.png)
+
+The same when used as Svelte components is seen here:
+  ![Svelte component usage: ](https://github.com/balaji-b-v/wc-country-name/blob/main/svelteComponentUsage.png)
