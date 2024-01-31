@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset='utf-8'>
+    <script type="module" src="CountryName.wc.js"></script>
+    <link rel="icon" type="image/svg+xml" href="web-component.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Svelte Web Components : Country Names</title>
+    <style>
+      body {
+        margin: 0;
+        place-items: center;
+       
+        font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+
+        
+
+        font-synthesis: none;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-text-size-adjust: 100%;
+      }
+      table {
+          width: 100%;
+          border: 1px solid #100808;
+      }
+      thead{
+        font-weight: bold;
+      }
+      td {
+          border: 1px solid #eca0a0;
+          padding: 10px;
+      }
+      h1 {
+        color: #ff3e00;
+        font-size: 1.4em;
+        line-height: 1.1;
+        font-weight: 100;
+      }
+      h2{
+        font-size: 1.1em;
+        color: blue;
+      }
+      main {
+        text-align: center;
+        padding: 1em;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+    <h1>Display country names in desired locale!</h1><h2>Pure web components usage</h2>
+    <table >
+      <thead>
+        <tr>
+          <td>Country Name in English</td>
+          <td>Country Name in Arabic</td>
+          <td>Country Name in German</td>
+          <td>Country Name in Hindi</td>
+          <td>Country Name in French</td>
+        </tr>
+      </thead>
+      <tbody>
+       
+        <tr>
+          <td><country-name displaylocale="en" countrycode="DK"></country-name></td>
+          <td><country-name displaylocale="ar" countrycode="DK"></country-name></td>
+          <td><country-name displaylocale="de" countrycode="DK"></country-name></td>
+          <td><country-name displaylocale="hi" countrycode="DK"></country-name></td>
+          <td><country-name displaylocale="fr" countrycode="DK"></country-name></td>
+        </tr>
+        <tr>
+          <td><country-name displaylocale="en" countrycode="US"></country-name></td>
+          <td><country-name displaylocale="ar" countrycode="US"></country-name></td>
+          <td><country-name displaylocale="de" countrycode="US"></country-name></td>
+          <td><country-name displaylocale="hi" countrycode="US"></country-name></td>
+          <td><country-name displaylocale="fr" countrycode="US"></country-name></td>
+        </tr>
+        <tr>
+          <td><country-name displaylocale="en" countrycode="SG"></country-name></td>
+          <td><country-name displaylocale="ar" countrycode="SG"></country-name></td>
+          <td><country-name displaylocale="de" countrycode="SG"></country-name></td>
+          <td><country-name displaylocale="hi" countrycode="SG"></country-name></td>
+          <td><country-name displaylocale="fr" countrycode="SG"></country-name></td>
+        </tr>
+        <tr>
+          <td><country-name displaylocale="en" countrycode="AE"></country-name></td>
+          <td><country-name displaylocale="ar" countrycode="AE"></country-name></td>
+          <td><country-name displaylocale="de" countrycode="AE"></country-name></td>
+          <td><country-name displaylocale="hi" countrycode="AE"></country-name></td>
+          <td><country-name displaylocale="fr" countrycode="AE"></country-name></td>
+        </tr>
+        <tr>
+          <td><country-name displaylocale="en" countrycode="JP"></country-name></td>
+          <td><country-name displaylocale="ar" countrycode="JP"></country-name></td>
+          <td><country-name displaylocale="de" countrycode="JP"></country-name></td>
+          <td><country-name displaylocale="hi" countrycode="JP"></country-name></td>
+          <td><country-name displaylocale="fr" countrycode="JP"></country-name></td>
+        </tr>
+      </tbody>
+    
+    
+    </table>
+    </main>
+  </body>
+</html>

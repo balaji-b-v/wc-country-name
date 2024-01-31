@@ -106,3 +106,15 @@ If you have state that's important to retain within a component, consider creati
 import { writable } from 'svelte/store'
 export default writable(0)
 ```
+
+## Using the pure web component
+
+Run `npm run build` to generate the web component bundle.
+Prepare a index.html file to consume the web component. A sample is made available in packages/html folder.
+the generated bundle files from dist/lib/* is moved to the same folder where index.html is kept.
+Now  the entire html folder can be run from any web server
+  - if nginx: place it in nginx/html folder
+  - if Apache: place in in htdocs/ folder
+Invoke the index.html from browser as in http://localhost
+You can see the sample here:
+  
