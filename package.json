@@ -26,5 +26,21 @@
   },
   "files": [
     "dist/lib"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/balaji-b-v/wc-country-name.git"
+  },
+  "keywords": [
+    "web",
+    "component",
+    "Intl",
+    "wrapper"
+  ],
+  "author": "balaji-b-v",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/balaji-b-v/wc-country-name/issues"
+  },
+  "homepage": "https://github.com/balaji-b-v/wc-country-name#readme"
 }
