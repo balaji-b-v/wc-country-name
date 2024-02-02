@@ -121,3 +121,23 @@ You can see the sample here:
 
 The same when used as Svelte components is seen here:
   ![Svelte component usage: ](https://github.com/balaji-b-v/wc-country-name/blob/main/svelteComponentUsage.png)
+
+## Using it as a web component'
+You will need to include the component bundle js file in script section
+`<script type="module" src="/path/to/CountryName.wc.js"></script>`
+
+In your HTML you can add the component as in:
+`<country-name displaylocale="ja" countrycode="IN"></country-name>`
+
+output:
+`インド`
+
+## Using as a svelte component
+In your svelte file , under `<script>` add the `import` in your `App.svelte`
+`import CountryName from '/path/to/CountryName.wc.svelte';`
+
+sample code:
+`<CountryName displaylocale="ja" countrycode="IN"></CountryName>`
+
+output:
+`インド`
