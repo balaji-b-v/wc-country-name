@@ -1,7 +1,7 @@
 {
   "name": "wc-country-name",
   "description": "A web component for displaying country name in desired locale",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "module": "dist/lib/wc-country-name.js",
   "main": "dist/lib/wc-country-name.umd.js",
@@ -32,10 +32,9 @@
     "url": "git+https://github.com/balaji-b-v/wc-country-name.git"
   },
   "keywords": [
-    "web",
-    "component",
-    "Intl",
-    "wrapper"
+    "web-component",
+    "pure-component",
+    "Intl-wrapper"
   ],
   "author": "balaji-b-v",
   "license": "MIT",
